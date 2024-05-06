@@ -1,9 +1,7 @@
 "use client"
 import React, { useState } from "react";
-import Button from "../Button";
 import Input from "../Input";
-import { FaTrashCan } from "react-icons/fa6";
-import { FaRegEdit } from "react-icons/fa";
+
 
 
 const Form = () => {

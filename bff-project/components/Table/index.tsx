@@ -18,12 +18,12 @@ const Table = () => {
       <td>1</td>
       <td>Malcolm Lockyer</td>
       <td>
-      <Button onClick={()=>{}} >
-        <FaTrashCan />
-    </Button>
-    <Button onClick={()=>{}} >
-        <FaRegEdit />
-    </Button>
+        <Button CustomClass="" onClick={()=>{}}>
+            <FaTrashCan />
+        </Button>
+        <Button CustomClass="" onClick={()=>{}} >
+            <FaRegEdit />
+        </Button>
       </td>
     </tr>
     <tr>

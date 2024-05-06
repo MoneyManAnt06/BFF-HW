@@ -2,7 +2,6 @@ import DeployButton from "@/components/DeployButton";
 import AuthButton from "@/components/AuthButton";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
-import Form from "@/components/Form";
 import Table from "@/components/Table";
 
 export default async function ProtectedPage() {
@@ -26,7 +25,6 @@ export default async function ProtectedPage() {
             <AuthButton />
           </div>
         </nav>
-        <Form />
         <Table />
     </div>
   );
